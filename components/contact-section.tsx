@@ -1,0 +1,100 @@
+"use client";
+
+import { CoverParticles } from "@/components/cover-particles";
+import TransitionPage from "@/components/transition-page";
+import { socialNetworks } from "@/data";
+import { RiGithubFill, RiLinkedinBoxFill, RiMailFill } from "react-icons/ri";
+
+const Contact = () => {
+  return (
+    <>
+      <TransitionPage />
+
+      <div className="relative flex items-center justify-center min-h-screen overflow-hidden ">
+        <CoverParticles />
+
+        <section className="relative z-20 w-full px-6">
+          <div className="max-w-4xl p-8 mx-auto border backdrop-blur-sm rounded-3xl  bg-darkBg/60 md:p-14">
+            <div className="flex flex-col gap-10 md:gap-16 md:flex-row md:items-center md:justify-between">
+              <div className="max-w-xl">
+                <h1 className="mb-6 text-4xl font-bold leading-tight md:text-6xl">
+                  Hablemos.
+                </h1>
+
+                <p className="text-lg leading-relaxed text-gray-300 md:text-xl">
+                  Estoy abierto a nuevas oportunidades, colaboraciones y
+                  proyectos donde pueda seguir creciendo como desarrollador Full
+                  Stack y crear soluciones con impacto real.
+                </p>
+
+                <div className="flex flex-wrap gap-4 mt-8">
+                  <a
+                    href="mailto:nahuelg976@gmail.com"
+                    className="px-5 py-3 transition-all border rounded-xl border-secondary text-secondary hover:bg-secondary hover:text-white"
+                  >
+                    Enviar email
+                  </a>
+
+                  <a
+                    href="/portfolio"
+                    className="px-5 py-3 transition-all border rounded-xl border-white/20 hover:border-white hover:bg-white/10"
+                  >
+                    Ver proyectos
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-5">
+                <a
+                  href={socialNetworks[0].src}
+                  target="_blank"
+                  className="flex items-center gap-4 p-4 transition-all border group rounded-2xl border-white/10 hover:border-secondary hover:bg-white/5"
+                >
+                  <RiGithubFill className="text-3xl transition-all text-secondary group-hover:scale-110" />
+
+                  <div>
+                    <p className="font-semibold">GitHub</p>
+                    <span className="text-sm text-gray-400">
+                      Ver repositorios y proyectos
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href={socialNetworks[1].src}
+                  target="_blank"
+                  className="flex items-center gap-4 p-4 transition-all border group rounded-2xl border-white/10 hover:border-secondary hover:bg-white/5"
+                >
+                  <RiLinkedinBoxFill className="text-3xl transition-all text-secondary group-hover:scale-110" />
+
+                  <div>
+                    <p className="font-semibold">LinkedIn</p>
+                    <span className="text-sm text-gray-400">
+                      Conectemos profesionalmente
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href="mailto:nahuelg976@gmail.com"
+                  className="flex items-center gap-4 p-4 transition-all border group rounded-2xl border-white/10 hover:border-secondary hover:bg-white/5"
+                >
+                  <RiMailFill className="text-3xl transition-all text-secondary group-hover:scale-110" />
+
+                  <div>
+                    <p className="font-semibold">Email</p>
+                    <span className="text-sm text-gray-400">
+                      Nahuelg976@gmail.com
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
+  );
+};
+
+export default Contact;
