@@ -155,7 +155,7 @@ export const dataPortfolio = [
   {
     id: 1,
     title: "Crypto tracker",
-    image: "/public/portfolio-box/Captura desde 2026-05-13 15-55-02.png",
+    image: "/portfolio-box/Captura desde 2026-05-13 15-55-02.png",
     urlGithub: "https://github.com/Gonzalez-Nahuel/crypto-tracker",
     urlDemo: "https://crypto-tracker-alpha-jet.vercel.app/",
     position: "start",
