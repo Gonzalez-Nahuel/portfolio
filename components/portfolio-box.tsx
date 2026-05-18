@@ -29,41 +29,30 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
 
   return (
     <div
-      key={id}
-      className={`relative flex flex-col md:min-h-80 md:flex-row ${position === "end" ? "md:flex-row-reverse" : ""} border border-slate-500 p-4 rounded-2xl md:border-none md:rounded-none items-stretch gap-4 w-full lg:gap-12 max-w-[550px] md:max-w-none`}
+      className={`flex flex-col  md:flex-row ${position === "end" ? "md:flex-row-reverse" : ""} p-4 rounded-2xl md:border-none md:rounded-none gap-4 w-full lg:gap-12 max-w-[550px] md:max-w-none`}
     >
-      <div
-        className={`hidden md:block relative aspect-video md:aspect-auto w-full max-w-[500px] overflow-hidden  border-[40px] ${position === "start" ? "border-l-0" : "border-r-0"}   border-purple-950 mb-4`}
-      >
+      <div className="flex flex-col justify-between items-center p-4 border border-teal-50 rounded-xl">
+        <h3 className="mb-4 text-xl font-bold">{title}</h3>
         <Image
           src={image}
-          alt={title}
-          fill
-          className="object-cover object-center"
+          alt="Image"
+          width={200}
+          height={200}
+          className="w-full md:w-[200px] rounded-2xl h-auto mb-6 md:mb-0"
         />
-      </div>
 
-      <div className="w-full md:w-1/2 z-10 flex flex-col items-center md:items-start">
-        <h3 className="md:mb-8 mb-4 font-extrabold md:text-3xl text-xl">
-          {title}
-        </h3>
-        <div className="md:hidden relative aspect-video md:aspect-auto w-full max-w-[500px] overflow-hidden  border-[15px] border-purple-950 mb-4">
-          <Image
-            src={image}
-            alt={title}
-            fill
-            className="object-cover object-center"
-          />
+        <div className=" md:hidden flex flex-col justify-around max-w-96">
+          <h3 className="font-bold text-base text-secondary mb-4 md:mb-0">
+            {stack}
+          </h3>
+          <p>{description}</p>
         </div>
-        <p className="md:text-lg mb-4 text-sm max-w-[500px]">{description}</p>
-
-        <span className="md:text-lg text-sm">{stack}</span>
 
         <div className="flex justify-center md:justify-start gap-5 mt-5 z-50">
           <Link
             href={urlGithub}
             target="_blank"
-            className="p-2 text-sm md:text-lg font-bold transition duration-150  border-2 border-transparent border-b-slate-600 hover:bg-slate-600 hover:text-black"
+            className="p-2 text-sm font-bold transition duration-150  border-2 border-transparent border-b-slate-600 hover:bg-slate-600 hover:text-black"
           >
             Github
           </Link>
@@ -71,11 +60,15 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
           <Link
             href={urlDemo}
             target="_blank"
-            className="p-2 font-bold text-sm md:text-lg transition duration-150 text-secondary border border-transparent border-b-secondary hover:bg-secondary hover:text-white"
+            className="p-2 font-bold text-sm  transition duration-150 text-secondary border border-transparent border-b-secondary hover:bg-secondary hover:text-white"
           >
             Live demo
           </Link>
         </div>
+      </div>
+      <div className="md:flex flex-col justify-around max-w-96 hidden">
+        <h3 className="font-bold text-base text-secondary">{stack}</h3>
+        <p>{description}</p>
       </div>
     </div>
   );

@@ -7,9 +7,9 @@ import {
   Pencil,
   Computer,
   Book,
-  Rocket,
-  Speech,
+  Mail,
 } from "lucide-react";
+import { title } from "process";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 export const socialNetworks = [
@@ -49,6 +49,12 @@ export const itemsNavbar = [
     title: "Target",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
+  },
+  {
+    id: 4,
+    title: "Contact",
+    icon: <Mail size={25} color="#fff" strokeWidth={1} />,
+    link: "/contact",
   },
 ];
 

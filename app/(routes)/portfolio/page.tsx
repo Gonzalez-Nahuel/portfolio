@@ -15,15 +15,13 @@ const PortfolioPage = () => {
     <ContainerPage>
       <TransitionPage />
       <CoverParticles />
-      {/*<AvatarPortfolio />*/}
-      {/*<CircleImage />*/}
       <div className="flex flex-col justify-center h-full">
-        <h1 className="text-2xl leading-tight text-center mb-8 md:text-4xl md:mb-16">
+        <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
           Mis últimos{" "}
-          <span className="font-bold text-secondary">proyectos realizados</span>
+          <span className="font-bold text-secondary">trabajos realizados</span>
         </h1>
 
-        <div className="relative z-10 flex flex-col items-center mx-auto w-full gap-16">
+        <div className="relative z-10 flex flex-col max-w-5xl gap-6 mx-auto mt-4">
           {dataPortfolio.map((data) => (
             <PortfolioBox key={data.id} data={data} />
           ))}

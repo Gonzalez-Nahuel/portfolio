@@ -30,7 +30,7 @@ export const CoverParticles = () => {
                   mode: "push",
                 },
                 onHover: {
-                  enable: false,
+                  enable: true,
                   mode: "repulse",
                 },
               },
@@ -69,7 +69,7 @@ export const CoverParticles = () => {
                 density: {
                   enable: true,
                 },
-                value: 80,
+                value: 100,
               },
               opacity: {
                 value: 0.5,
