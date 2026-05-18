@@ -220,3 +220,82 @@ export const dataTestimonials = [
     imageUrl: "/profile6.png",
   },
 ];
+
+export const dataStackIcons = {
+  left: [
+    {
+      id: 1,
+      title: "HTML",
+      logo: "/logos/html.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 2,
+      title: "REACT",
+      logo: "/logos/react.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 3,
+      title: "EXPRESS.JS",
+      logo: "/logos/express.png",
+      width: 55,
+      height: 55,
+    },
+  ],
+  center: [
+    {
+      id: 1,
+      title: "JAVASCRIPT",
+      logo: "/logos/js.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 2,
+      title: "PYTHON",
+      logo: "/logos/py.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 3,
+      title: "MONGODB",
+      logo: "/logos/mongo.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 4,
+      title: "GIT",
+      logo: "/logos/git.png",
+      width: 55,
+      height: 55,
+    },
+  ],
+  right: [
+    {
+      id: 1,
+      title: "CSS",
+      logo: "/logos/css.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 2,
+      title: "NEXT.JS",
+      logo: "/logos/nextjs.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      id: 3,
+      title: "NODE:JS",
+      logo: "/logos/node.png",
+      width: 55,
+      height: 55,
+    },
+  ],
+};

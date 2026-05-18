@@ -1,22 +1,42 @@
-## VIDEO COMPLETO EN YOUTUBE
-https://youtu.be/HMbzJaBi4OU
+# Portafolio personal
 
-## Getting Started
+Portafolio personal desarrollado con Next.js y Tailwind CSS.
 
-First, run the development server:
+Basado originalmente en un diseño del canal [TarreDev](https://www.youtube.com/@tarredev) y posteriormente modificado/adaptado con nuevas secciones, componentes, estilos y funcionalidades propias.
+
+## Preview
+
+![Home](/public/readme/Captura%20desde%202026-05-18%2018-55-00.png)
+
+![Abaut me](/public/readme/Captura%20desde%202026-05-18%2018-55-39.png)
+
+![Contact](/public/readme/Captura%20desde%202026-05-18%2018-55-48.png)
+
+## Tecnologias
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+
+## Instalacion
 
 ```bash
 npm install
+```
+
+Luego para levantar servidor en desarrollo
+
+```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 24 45" src="https://github.com/ratasi/landing-page-particles/assets/16082370/ad4315fe-c97f-4788-b1b5-5117836779ae">
+## Creditos
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 26 28" src="https://github.com/ratasi/landing-page-particles/assets/16082370/8fbd1765-1255-4f3d-91a8-46de04bfd055">
+Diseño originalmente inspirado en contenido del canal [Tarre Dev](https://www.youtube.com/@tarredev).
+Modificado y adaptado para uso personal.
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 49 37" src="https://github.com/ratasi/landing-page-particles/assets/16082370/38827044-a2f4-455c-a9a7-987dda752c9e">
+[VIDEO COMPLETO EN YOUTUBE](https://youtu.be/HMbzJaBi4OU)
 
-<img width="1678" alt="Screenshot 2024-02-12 at 16 33 26" src="https://github.com/ratasi/landing-page-particles/assets/16082370/fa7cf285-b091-4811-b464-db63c3b52c72">
+## Demo
 
-<img width="1680" alt="Screenshot 2024-02-12 at 16 49 45" src="https://github.com/ratasi/landing-page-particles/assets/16082370/54aa5cca-913c-444e-8495-1007e5630aa7">
+[Ver sitio]()

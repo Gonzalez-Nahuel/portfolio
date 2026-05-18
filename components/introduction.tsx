@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { TechstackBacground } from "./tech-stack-background";
 
 const Introduction = () => {
   return (
@@ -51,6 +52,7 @@ const Introduction = () => {
             </a>
           </div>
         </div>
+
         <Image
           src="/home-4.png"
           priority

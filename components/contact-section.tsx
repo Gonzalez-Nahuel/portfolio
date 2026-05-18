@@ -46,36 +46,6 @@ const Contact = () => {
 
               <div className="flex flex-col gap-5">
                 <a
-                  href={socialNetworks[0].src}
-                  target="_blank"
-                  className="flex items-center gap-4 p-4 transition-all border group rounded-2xl border-white/10 hover:border-secondary hover:bg-white/5"
-                >
-                  <RiGithubFill className="text-3xl transition-all text-secondary group-hover:scale-110" />
-
-                  <div>
-                    <p className="font-semibold">GitHub</p>
-                    <span className="text-sm text-gray-400">
-                      Ver repositorios y proyectos
-                    </span>
-                  </div>
-                </a>
-
-                <a
-                  href={socialNetworks[1].src}
-                  target="_blank"
-                  className="flex items-center gap-4 p-4 transition-all border group rounded-2xl border-white/10 hover:border-secondary hover:bg-white/5"
-                >
-                  <RiLinkedinBoxFill className="text-3xl transition-all text-secondary group-hover:scale-110" />
-
-                  <div>
-                    <p className="font-semibold">LinkedIn</p>
-                    <span className="text-sm text-gray-400">
-                      Conectemos profesionalmente
-                    </span>
-                  </div>
-                </a>
-
-                <a
                   href="mailto:nahuelg976@gmail.com"
                   className="flex items-center gap-4 p-4 transition-all border group rounded-2xl border-white/10 hover:border-secondary hover:bg-white/5"
                 >

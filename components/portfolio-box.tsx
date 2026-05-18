@@ -29,15 +29,15 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
 
   return (
     <div
-      className={`flex flex-col  md:flex-row ${position === "end" ? "md:flex-row-reverse" : ""} p-4 rounded-2xl md:border-none md:rounded-none gap-4 w-full lg:gap-12 max-w-[550px] md:max-w-none`}
+      className={`flex flex-col  md:flex-row ${position === "end" ? "md:flex-row-reverse" : ""} p-4 rounded-2xl md:border-none md:rounded-none gap-4 w-full lg:gap-12 max-w-[460px] md:max-w-none`}
     >
       <div className="flex flex-col justify-between items-center p-4 border border-teal-50 rounded-xl">
         <h3 className="mb-4 text-xl font-bold">{title}</h3>
         <Image
           src={image}
-          alt="Image"
-          width={200}
-          height={200}
+          alt={title}
+          width={600}
+          height={600}
           className="w-full md:w-[200px] rounded-2xl h-auto mb-6 md:mb-0"
         />
 
