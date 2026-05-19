@@ -36,8 +36,8 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         <Image
           src={image}
           alt={title}
-          width={600}
-          height={600}
+          width={200}
+          height={200}
           className="w-full md:w-[200px] rounded-2xl h-auto mb-6 md:mb-0"
         />
 
