@@ -4,8 +4,8 @@ import { TechstackBacground } from "./tech-stack-background";
 
 const Introduction = () => {
   return (
-    <div className="z-20 w-full bg-darkBg/60">
-      <div className="z-20 grid items-end content-end gap-4 md:place-items-center md:content-center justify-items-center h-full px-6 md:py-0 md:grid-cols-2">
+    <div className="flex flex-col justify-start z-20 w-full">
+      <div className="z-20 grid items-end content-end md:gap-4 md:place-items-center md:content-center justify-items-center h-fit px-6 md:py-0 md:grid-cols-2">
         <div className="flex flex-col justify-center max-w-md ">
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
             Construyendo, <br />
@@ -27,7 +27,7 @@ const Introduction = () => {
             />
           </h1>
 
-          <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
+          <p className="mx-auto mb-2 text-base md:text-xl md:mx-0 md:mb-8">
             Me apasiona crear tecnología útil y entender cómo funcionan las
             cosas en profundidad. Como desarrollador Full Stack autodidacta,
             disfruto trabajar en todo el proceso de construcción de una
@@ -56,10 +56,10 @@ const Introduction = () => {
         <Image
           src="/home-4.png"
           priority
-          width="800"
-          height="800"
+          width="750"
+          height="750"
           alt="Avatar"
-          className="w-96 h-auto md:w-auto md:h-auto "
+          className="w-80 h-72 md:w-auto md:h-auto "
         />
       </div>
     </div>

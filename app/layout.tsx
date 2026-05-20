@@ -25,8 +25,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={urbanist.className}>
         <Navbar />
-        <Header />
-        {children}
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex flex-1 ">{children}</main>
+        </div>
       </body>
     </html>
   );

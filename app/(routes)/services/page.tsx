@@ -9,7 +9,7 @@ const ServicesPage = () => {
       <TransitionPage />
       <CircleImage />
       <AvatarServices />
-      <div className="flex flex-col items-center h-screen justify-center gap-10 mx-auto w-full max-w-7xl">
+      <div className="flex flex-col items-center justify-center gap-10 mx-auto w-full max-w-7xl">
         <div className="flex w-full px-10 justify-center md:justify-start">
           <div className="max-w-[450px]">
             <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
