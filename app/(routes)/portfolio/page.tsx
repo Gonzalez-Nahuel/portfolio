@@ -9,12 +9,14 @@ import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
 import PortfolioBox from "@/components/portfolio-box";
 import { CoverParticles } from "@/components/cover-particles";
+import { CoverStars } from "@/components/cover-stars";
 
 const PortfolioPage = () => {
   return (
     <ContainerPage>
       <TransitionPage />
-      <CoverParticles />
+      <AvatarPortfolio />
+      <CoverStars />
       <div className="flex flex-col justify-center h-full">
         <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
           Mis últimos{" "}

@@ -1,5 +1,6 @@
 import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
+import { CoverStars } from "@/components/cover-stars";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
 
@@ -7,9 +8,10 @@ const ServicesPage = () => {
   return (
     <>
       <TransitionPage />
+      <CoverStars />
       <CircleImage />
       <AvatarServices />
-      <div className="flex flex-col items-center justify-center gap-10 mx-auto w-full max-w-7xl">
+      <div className="flex flex-col items-center justify-start md:justify-center gap-14 mx-auto w-full max-w-7xl">
         <div className="flex w-full px-10 justify-center md:justify-start">
           <div className="max-w-[450px]">
             <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
