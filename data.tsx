@@ -157,11 +157,12 @@ export const dataPortfolio = [
     title: "Crypto tracker",
     image: "/porfolio-box/Captura desde 2026-05-13 15-55-02.png",
     urlGithub: "https://github.com/Gonzalez-Nahuel/crypto-tracker",
-    urlDemo: "https://crypto-tracker-alpha-jet.vercel.app/",
+    urlDemo: "https://nahueldev.com",
     position: "start",
     description:
-      "Plataforma de seguimiento de criptomonedas desarrollada con Next.js y TypeScript, integrando APIs externas, autenticación, manejo de estado y persistencia de datos. El proyecto incluye funcionalidades full stack, despliegue y optimización responsive.",
-    stack: "Next.js, TypeScript, Tailwind, PostgreSQL, Prisma",
+      "Aplicación web full stack para seguimiento de criptomonedas en tiempo real desarrollada con Next.js, TypeScript, PostgreSQL y Prisma. Implementa autenticación JWT, integración de APIs externas, gestión de estado global, persistencia de datos y diseño responsive. Desplegada en AWS EC2 utilizando Docker, Nginx Reverse Proxy y pipelines CI/CD automatizados con GitHub Actions.",
+    stack:
+      "Next.js, TypeScript, Tailwind, PostgreSQL, Prisma, Github Actions, Docker, Docker compose, AWS",
   },
   {
     id: 2,
